@@ -81,7 +81,7 @@ var swiper = new Swiper(".slide-container", {
 
 //Connect to Whatsapp
 function whatsapp(){
-  let URL = window.open("https://wa.me/085606775439");
+  let URL = window.open("https://wa.me/6285854653667");
 
-  window.open(URL, "_top");
+  window.open(URL, "_blank").focus();
 }
