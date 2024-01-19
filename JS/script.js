@@ -78,3 +78,8 @@ var swiper = new Swiper(".slide-container", {
     },
   },
 });
+
+//Connect to Whatsapp
+function whatsapp(){
+  window.open("https://wa.me/6285606775439", "_top")
+}
