@@ -83,6 +83,6 @@ var swiper = new Swiper(".slide-container", {
 function whatsapp(){
   let URL = window.open("https://wa.me/6285854653667");
 
-  window.open(URL, "_blank");
-  window.location.href ="https://newbiegfx1914.github.io/Maipp19/#contact";
+  window.open(URL, "_top");
+  window.location.assign("https://newbiegfx1914.github.io/Maipp19/#contact");
 }
