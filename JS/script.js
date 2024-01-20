@@ -78,10 +78,3 @@ var swiper = new Swiper(".slide-container", {
     },
   },
 });
-
-//Connect to Whatsapp
-function whatsapp(){
-  let URL = window.open("https://wa.me/6285854653667");
-
-  window.open(URL) + window.location.reload();
-}
