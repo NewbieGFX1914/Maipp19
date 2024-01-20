@@ -40,6 +40,8 @@ for (var i = 0; i < navLinks.length; i++) {
     navBar.classList.remove("active");
     menuBtn.style.opacity = "1";
     menuBtn.style.pointerEvents = "auto";
+    body.style.overflow = "auto";
+    scrollBtn.style.pointerEvents = "auto";
   });
 }
 
