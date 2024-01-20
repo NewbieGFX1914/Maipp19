@@ -11,7 +11,6 @@ window.onscroll = function() {
     nav.classList.remove("sticky");
     scrollBtn.style.display = "none";
   }
-
 }
 
 // Side NavIgation Menu JS Code
@@ -43,7 +42,6 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
-
 
 var swiper = new Swiper(".slide-container", {
   slidesPerView: 4,
